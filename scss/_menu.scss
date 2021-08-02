@@ -40,7 +40,7 @@
 .menu {
     position: fixed;
     top: 0;
-    width: 100%;    
+    width: 100%;        
     visibility: hidden;
 
     &.show {
@@ -89,9 +89,13 @@
             height: 250px;            
             background: url(../img/andrew_large.jpg);
             border-radius: 50%;
-            border: solid 3px $secondary-color;
+            border: solid 6px $secondary-color;
         }        
     }
+
+    /* Note: These styles are applied to the nav menus of each individual page.
+       We are NOT adding or removing the current class from each individual link.
+    */
 
     .nav-item {
         transform: translate3d(600px, 0, 0);
@@ -114,8 +118,8 @@
         text-transform: uppercase;
         padding: 1rem 0;
         font-weight: 300;
-        color: #fff;                
-        @include easeOut;
+        color: #fff;
+        @include easeOut;  // for hover      
 
         &:hover {
             color: $secondary-color;
