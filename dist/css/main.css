@@ -207,8 +207,7 @@ main {
     transition: all 0.5s ease-out; }
     .boxes div:hover {
       padding: 1.2rem 2.2rem;
-      background: #23da7e;
-      color: #fff; }
+      background: #15824b; }
       .boxes div:hover span {
         color: #fff; }
 
