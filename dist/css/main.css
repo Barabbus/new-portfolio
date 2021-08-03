@@ -57,14 +57,14 @@
       height: 250px;
       background: url(../img/andrew_large.jpg);
       border-radius: 50%;
-      border: solid 3px rgba(81, 252, 29, 0.925); }
+      border: solid 3px #23da7e; }
   .menu .nav-item {
     transform: translate3d(600px, 0, 0);
     transition: all 0.5s ease-out; }
     .menu .nav-item.show {
       transform: translate3d(0, 0, 0); }
     .menu .nav-item.current > a {
-      color: rgba(81, 252, 29, 0.925); }
+      color: #23da7e; }
   .menu .nav-link {
     display: inline-block;
     position: relative;
@@ -75,7 +75,7 @@
     color: #fff;
     transition: all 0.5s ease-out; }
     .menu .nav-link:hover {
-      color: rgba(81, 252, 29, 0.925); }
+      color: #23da7e; }
 
 .nav-item:nth-child(1) {
   transition-delay: 0.1s; }
@@ -132,7 +132,7 @@ header {
   width: 100%; }
 
 .text-secondary {
-  color: rgba(81, 252, 29, 0.925); }
+  color: #23da7e; }
 
 main {
   padding: 4rem;
@@ -142,7 +142,7 @@ main {
     main .icons a {
       padding: 0.4rem; }
       main .icons a:hover {
-        color: rgba(81, 252, 29, 0.925);
+        color: #23da7e;
         transition: all 0.5s ease-out; }
   main#home {
     overflow: hidden; }
@@ -160,7 +160,7 @@ main {
     grid-area: bioimage;
     margin: auto;
     border-radius: 50%;
-    border: rgba(81, 252, 29, 0.925) 3px solid; }
+    border: #23da7e 3px solid; }
   .about-info .bio {
     grid-area: bio;
     font-size: 1.3rem; }
@@ -179,7 +179,7 @@ main {
   .about-info .job {
     background: #4c4c4c;
     padding: 0.5rem;
-    border-bottom: rgba(81, 252, 29, 0.925) 4px solid; }
+    border-bottom: #23da7e 4px solid; }
 
 .projects {
   display: grid;
@@ -189,8 +189,8 @@ main {
     width: 100%;
     border: 3px #fff solid; }
     .projects img:hover {
-      opacity: 0.4;
-      border-color: rgba(81, 252, 29, 0.925);
+      opacity: 0.5;
+      border-color: #23da7e;
       transition: all 0.5s ease-out; }
 
 .boxes {
@@ -207,23 +207,27 @@ main {
     transition: all 0.5s ease-out; }
     .boxes div:hover {
       padding: 1.2rem 2.2rem;
-      background: rgba(81, 252, 29, 0.925);
+      background: #23da7e;
       color: #fff; }
       .boxes div:hover span {
         color: #fff; }
 
-.btn, .btn-dark {
+.btn, .btn-light, .btn-dark {
   display: block;
   padding: 0.5rem 1rem;
   border: 0;
   margin-bottom: 0.3rem;
   color: #fff; }
-  .btn:hover, .btn-dark:hover {
-    background: rgba(81, 252, 29, 0.925);
-    color: #000; }
+  .btn:hover, .btn-light:hover, .btn-dark:hover {
+    background: #23da7e; }
+
+.btn-light {
+  background: #c4c4c4;
+  color: #333; }
 
 .btn-dark {
-  background: black; }
+  background: black;
+  color: #fff; }
 
 #main-footer {
   text-align: center;
